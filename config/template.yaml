@@ -1,0 +1,28 @@
+group_names: ['msm_white_male', 
+              'msm_black_male', 
+              'msm_hisp_male', 
+              'idu_white_male', 
+              'idu_black_male',
+              'idu_hisp_male', 
+              'idu_white_female', 
+              'idu_black_female', 
+              'idu_hisp_female', 
+              'het_white_male',
+              'het_black_male', 
+              'het_hisp_male', 
+              'het_white_female', 
+              'het_black_female', 
+              'het_hisp_female'
+]
+num_cpus: 150
+replications: 200
+comorbidity_flag: 0 # 0, 1
+new_dx: 'base' # base, ehe, sa
+mortality_model: 'by_sex_race_risk' # by_sex_race_risk, by_sex_race, by_sex, overall
+mortality_threshold_flag: 1 # 0, 1:
+final_year: 2030 # [2010 - 2035]
+verbose: 0 #0, 1
+sa_type: 'none' # none, type1, type2, aim2_inc, aim2_prev, aim2_mort
+idu_threshold: '2x' # 2x, 5x, 10x
+bmi_intervention: 0 # 0, 1
+bmi_intervention_probability: 1.0 # [0.0 - 1.0]

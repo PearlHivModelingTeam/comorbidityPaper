@@ -1,0 +1,13 @@
+group_names: ['idu_black_female']
+num_cpus: 4
+replications: 1
+comorbidity_flag: 1
+new_dx: 'base'
+mortality_model: 'by_sex_race_risk'
+mortality_threshold_flag: 1
+final_year: 2030
+verbose: 0
+sa_type: 'none'
+idu_threshold: '2x'
+bmi_intervention: 1
+bmi_intervention_probability: 1.0
